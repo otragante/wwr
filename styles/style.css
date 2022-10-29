@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Robot&family=Rock+Salt&display=swap');
+@import url('https://fonts.google.com/specimen/Just+Another+Hand');
+
+	
+
+
 body {
     background-color: #fcfbfb; 
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -20,10 +31,24 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
-}    
+}  
+
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    color: #d9c2a3;
+    margin-top: 10px;
+}
+
    
-h1, h2, h3, h4, h5, h6 {
+h2,  {
+    margin: 0;
+    font-family: 'Just Another Hand'
     
+}
+
+#logo_link{
+    padding-top: nav a
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -32,13 +57,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .rivers-card{
     text-align: center;
+    margin: 200px 0;
 }
 
 .camping-card{
     text-align: center;
+    margin: 200px 0;
 }
 .rapids-card{
     text-align: center;
+    margin: 200px 0;
 }
 .home-grid{
     text-align: center;
@@ -53,6 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 
 nav a:hover {
     background-color: black;
+    padding: 35px;
 }
 
 #content{
@@ -64,6 +93,7 @@ nav a:hover {
     width: 80px;
     margin-left:auto; 
     margin-right: auto;
+    padding-top: 10px;
     
 }
    
@@ -88,16 +118,52 @@ footer a:hover {
 }
 
 .msg{
-    background-color:rgba(20,30,13, .7);
+    background-color: #6f7364;
+    line-height: 1.5em;
     color: #fcfbfb;
+    font-size:1.5em
+        
+}
+
+.msg p{
+
+    font-size:.8em;
+    padding:35px;
+    padding-bottom: 15px;
+
+}
+
+.msg h2{
+    font-family: 'Bradley Hand';
+
 }
 
 footer {
     background-color:rgba(20,30,13, .7);
     color: #fcfbfb;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
-.join{
+
+.book, .join{
     background-color: #d9c2a3;
-    color:black
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.social img{
+    padding-top: 15px;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
 }
