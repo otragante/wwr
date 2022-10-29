@@ -1,0 +1,103 @@
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+}
+
+
+#background {
+    height: 725px;
+    background-color:#d9c2a3;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}  
+
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}    
+   
+h1, h2, h3, h4, h5, h6 {
+    
+}
+
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+
+.rivers-card{
+    text-align: center;
+}
+
+.camping-card{
+    text-align: center;
+}
+.rapids-card{
+    text-align: center;
+}
+.home-grid{
+    text-align: center;
+}
+.mountains{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+#content{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+  
+.icon {
+    width: 80px;
+    margin-left:auto; 
+    margin-right: auto;
+    
+}
+   
+footer p {
+    font-size: 1.2em;
+    color: #d9c2a3;
+}    
+                
+footer p a:hover {
+    text-decoration: underline;
+    color: #d9c2a3;
+}   
+
+.logo {
+
+    width: 80px;
+}
+
+footer a:hover {
+    color: #d9c2a3;
+    
+}
+
+.msg{
+    background-color:rgba(20,30,13, .7);
+    color: #fcfbfb;
+}
+
+footer {
+    background-color:rgba(20,30,13, .7);
+    color: #fcfbfb;
+}
+
+.join{
+    background-color: #d9c2a3;
+    color:black
+}
